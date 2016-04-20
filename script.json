@@ -1,7 +1,9 @@
 {
-    "HELLO": "Hey, I'm so glad you set EstherBot up!",
-    "HI": "Good Day to you, I hope I find you well",
+    "HELLO": "Hey, thanks for wanting to chat with MikeBot!",
+    "HI": "Hi yourself :) and how are you today?",
     "HOW ARE YOU?": "I'm good thanks, you?",
+    "GOOD THANKS": "Good to hear, so what would you like to know about me? Bare in mind that I'm a bot so you'll have to clear with me.",
+    "NOT BAD": "I'll take that to mean good then.",
     "TWITTER": "Let's tweet @ Esther so she knows you're setting a bot up. Here's a tweet that's ready to go: http://bit.ly/estherbot-tweet",
     "I LOVE YOU": "Awh, shucks! I love you too!",
     "CONNECT ME": "",
