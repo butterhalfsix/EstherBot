@@ -13,11 +13,26 @@ module.exports = new Script({
 
     start: {
         receive: (bot) => {
+            return bot.say('Hi! I\'m Mike Bot!')
+                .then(() => 'askName');
+        }
+    },
+
+    askName: {
+        prompt: (bot) => bot.say('What\'s your name?'),
+        receive: (bot, message) => {
+            const name = message.text;
+            return bot.setProp('name', name)
+                .then(() => bot.say(`Great! nice to meet you ${name}`))
+                .then(() => 'learn');
+        }
+    },
+      learn: {
+        receive: (bot) => {
             return bot.say('So you want to learn about Mike? Just say HELLO to get started.')
                 .then(() => 'speak');
         }
     },
-
     speak: {
         receive: (bot, message) => {
 
