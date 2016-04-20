@@ -1,7 +1,7 @@
 {
     "HELLO": "Hey, thanks for wanting to chat with MikeBot!",
     "HI": "Hi yourself :) and how are you today?",
-    "HOW ARE YOU?": "I'm good thanks, you?",
+    "HOW ARE YOU?": "I'm good thanks, you?%[magic](http://www.google.com)",
     "WHATS UP?": "Nothing much",
     "GOOD THANKS": "Good to hear, so what would you like to know about me? Bare in mind that I'm a bot so you'll have to clear with me.",
     "NOT BAD": "I'll take that to mean good then.",
