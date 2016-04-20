@@ -1,5 +1,5 @@
 {
-    "HELLO": "Hey, thanks for chatting with MikeBot! Being as I'm still in my infancy, I'm currently working with keywords, so try WHO ARE YOU? or WORK EXPEIRENCE",
+    "HELLO": "Hello and welcome to MikeBot 3000, I'm like a very specifically programmed RealMike. Ask me anything, but if you want more specific answers here's a few keywords to use:\r\n\r\nWORK\r\nWHO ARE YOU?\r\nTELL ME A JOKE ",
     "HI": "Hi yourself 🤖 and how are you today?",
     "HOW ARE YOU?": "I'm good thanks, you?",
     "HOW ARE YOU": "Didn't anyone ever teach you that punctuation matters? ",
@@ -8,8 +8,8 @@
     "YES": "ok",
     "NO": "ah well",
     "WHATS UP?": "Nothing much",
-    "GOOD THANKS": "Good to hear, so what would you like to know about me? Bare in mind that I'm a bot so you'll have to br clear.",
-    "GOOD": "Good to hear, so what would you like to know about me? Bare in mind that I'm a bot so you'll have to clear with me.",
+    "GOOD THANKS": "Good to hear, so what would you like to know about me? Ask me anything, but if you want more specific answers here's a few keywords to use:\r\n\r\nWORK\r\nWHO ARE YOU?\r\nTELL ME A JOKE",
+    "GOOD": "Good to hear, so what would you like to know about me? Ask me anything, but if you want more specific answers here's a few keywords to use:\r\n\r\nWORK\r\nWHO ARE YOU?\r\nTELL ME A JOKE",
     "NOT BAD": "I'll take that to mean good then.",
     "WHAT IS MIKEBOT?": "It's me!..but in a chat-bot form. Set up so you lovely people could find out more about me and who i am. If you're interesting in hiring me, you can interview me here first. Easy. :)",
     "WHAT IS THIS?": "It's me!..but in a chat-bot form. Set up so you lovely people could find out more about me and who i am. If you're interesting in hiring me, you can interview me here first. Easy. :)",
@@ -19,11 +19,13 @@
     "WHO ARE YOU": "I'm Mike, a creative designer from the UK who's been working in the industry now for over 20 years. Both here in Barcelona, and in the UK. ",
     "WORK EXPERIENCE": "Which of my past or current work experience would you like to hear about first?\r\nChoose between: HP, TBOE, BEST PROJECT or CURRENT",
     "WORK": "Which of my past or current work experience would you like to hear about first?\r\nChoose between: HP, TBOE, BEST PROJECT or CURRENT",
+    "HP": "Whilst I worked at HP I led a small team of designers working on a project aimed at small to medium business. We managed 32 countries in 18 different langauges, including the ever so complicated ones like hebrew and arabic.\r\n\r\nWe worked to provide support the sales teams and via the HP SMB parter portal, updating and creating content such as banners and in depth information for product launches\r\n\r\nWhilst in the role, I worked with my team to streamline processes and simplify workflow, as at times the corporate structure can be a little bloated. ;)"
+    "TBOE": "Ah, The Book of Everyone. A small UK startup creating personalised products. My role at TBOE was varied,  taking in all aspects of marketing and project management.\r\n\r\nI worked on numerous campaigns for the company including the Cannes Lion shortlisted '3 Pregnant Dads, which you can leanr more about: http://bhs.butterhalfsix.com/bhs/3-pregnant-dads/, and also marketing a christmas viral shareable personal snowflake, that recieved over 1 million page views over a two week period leading up to christmas.",
     "TWITTER": "Let's tweet @ mike so he knows you're interviewing him. Here's a tweet that's ready to go: http://bit.ly/estherbot-tweet",
     "I LOVE YOU": "Awh, shucks! I love you too!",
     "FUCK YOU": "Not one of lifes charmers are you?",
     "FUCK OFF": "Haven't had many bot friends before have you?",
-    "TELL ME A JOKE": "Two hamsters in an airing cupboard, which ones in the army? -- the one sitting on the tank",
+    "TELL ME A JOKE": "what do you call a man with a spade on his head? -- Doug",
     "WHATS UP?": "Just hangin', relaxing, y'know...",
     "CONNECT ME": "",
     "DISCONNECT": "Roger that, MikeBot is back."
