@@ -28,8 +28,7 @@ module.exports = new Script({
         }
     },
       learn: {
-        receive: (bot) => {
-            return bot.say('So you want to learn about Mike? Just say HELLO to get started.')
+        prompt: (bot) => bot.say('So you want to learn about Mike? Just say HELLO to get started.')
                 .then(() => 'speak');
         }
     },
