@@ -29,6 +29,7 @@ module.exports = new Script({
     },
       learn: {
         receive: (bot) => {
+            return bot.getProp('name')
             return bot.say('So ${name}, you want to learn about my creator Mike? Just say HELLO to get started.')
                 .then(() => 'speak');
         }
