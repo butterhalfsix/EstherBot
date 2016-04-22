@@ -36,7 +36,6 @@ module.exports = new Script({
     aboutMe: {
         prompt: (bot) => bot.say('Shall we talk more about me instead? This is an interview after all :)'),
                 .then(() => 'speak');
-        }
     },
     speak: {
         receive: (bot, message) => {
