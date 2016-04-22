@@ -23,14 +23,13 @@ module.exports = new Script({
         receive: (bot, message) => {
             const name = message.text;
             return bot.setProp('name', name)
-                .then() => bot.say(`Great! nice to meet you ${name}`))
+                .then(() => bot.say(`Great! nice to meet you ${name}`))
                 .then(() => 'learn');
         }
     },
       learn: {
         receive: (bot) => {
-            return bot.getProp('name')
-                .then((name) => bot.say('So ${name}, you want to learn about my creator Mike? Just say HELLO to get started.')
+            return bot.say('So you want to learn about Mike? Just say HELLO to get started.')
                 .then(() => 'speak');
         }
     },
@@ -61,8 +60,7 @@ module.exports = new Script({
                 }
 
                 if (!_.has(scriptRules, upperText)) {
-                    return bot.getProp('name')
-                    .then((name) => bot.say(`Sorry ${name}, I'm not exactly sure what you meant by that`).then(() => 'speak');
+                    return bot.say(`Sorry ${name}, I'm not exactly sure what you meant by that`).then(() => 'speak');
                 }
 
                 var response = scriptRules[upperText];
