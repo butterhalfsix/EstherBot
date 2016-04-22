@@ -33,10 +33,7 @@ module.exports = new Script({
                 .then(() => 'speak');
         }
     },
-    aboutMe: {
-        prompt: (bot) => bot.say('Shall we talk more about me instead? This is an interview after all :)'),
-                .then(() => 'speak');
-    },
+
     speak: {
         receive: (bot, message) => {
 
@@ -63,7 +60,7 @@ module.exports = new Script({
                 }
 
                 if (!_.has(scriptRules, upperText)) {
-                    return bot.say(`Sorry ${name}, I'm not exactly sure what you meant by that`).then(() => 'aboutMe');
+                    return bot.say(`Sorry ${name}, I'm not exactly sure what you meant by that`).then(() => 'speak');
                 }
 
                 var response = scriptRules[upperText];
