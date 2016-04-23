@@ -59,7 +59,10 @@ module.exports = new Script({
                 }
 
                 if (!_.has(scriptRules, upperText)) {
-                    return bot.say(`Sorry, I'm still learning how lanaguage works. Can you be a little bit clearer please?`).then(() => 'speak');
+                                return bot.getProp('name')
+                .then((name) => bot.say(`Sorry ${name}, my creator didn't ` +
+                        'teach me how to do anything else!'))
+                .then(() => 'speak');
                 }
 
                 var response = scriptRules[upperText];
