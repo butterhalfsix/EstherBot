@@ -28,12 +28,10 @@ module.exports = new Script({
         }
     },
       learn: {
-        prompt: (bot) => bot.say('So you want to learn about Mike? Just say HELLO to get started.')
+        receive: (bot) => {
+            return bot.say('So you want to learn about Mike? Just say HELLO to get started.')
                 .then(() => 'speak');
-    },
-      me: {
-        prompt: (bot) => bot.say('Shall we talk more about me instead?'),
-            .then(() => 'speak');
+        }
     },
     speak: {
         receive: (bot, message) => {
@@ -61,10 +59,9 @@ module.exports = new Script({
                 }
 
                 if (!_.has(scriptRules, upperText)) {
-                    return bot.say(`I\'m not sure what you mean exactly by that.😐`)
-                        .then(() => 'me');
-        }
-    },
+                    return bot.say(`Sorry, I'm still learning how lanaguage works. Can you be a little bit clearer please?`).then(() => 'speak');
+                }
+
                 var response = scriptRules[upperText];
                 var lines = response.split(/(<img src=\'[^>]*\'\/>)/);
 
