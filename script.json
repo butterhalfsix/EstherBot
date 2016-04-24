@@ -1,5 +1,5 @@
 {
-    "HELLO": "Hello and welcome to MikeBot 3000 🤖, I'm like a very specifically programmed RealMike. Ask me anything, but if you want more specific answers here's a few keywords to use.\r\n\r\nWORK\r\nWHO ARE YOU?\r\nTELL ME A JOKE ",
+    "LETS GO": "OK cool! 🤖 Ask me anything, but if you want some specific answers here's a few keywords to use.\r\n\r\nPREVIOUS WORK\r\nWHO ARE YOU?\r\nTELL ME A JOKE\r\nor alternatively you can ask me any of the 20 most asked interview question according to linkedin here: https://www.linkedin.com/pulse/top-20-common-interview-questions-answers-jeremiah-mauti?trk=pulse-det-nav_art",
     "HI": "Hi yourself 🤖 and how are you today?",
             "HOLA": "Hola! 🤖 al momento, solo puedo communicar en english, sorry!",
             "HOLA!": "Hola! 😜 al momento, solo puedo commuincar en english, sorry!",
@@ -25,7 +25,9 @@
     "WHAT IS MIKEBOT?": "It's me!..but in a chat-bot form. Set up so you lovely people could find out more about me and who i am. If you're interesting in hiring me, you can interview me here first. Easy. :)",
     "WHAT IS THIS?": "It's me!..but in a chat-bot form. Set up so you lovely people could find out more about me and who i am. If you're interesting in hiring me, you can interview me here first. Easy. :)",
     "SORRY": "No problem",
-    "TELL ME MORE ABOUT YOU": "It would be my pleasure. I'm Mike, a creative designer from the UK who's been working in the industry now for over 20 years. Both here in Barcelona, and in the UK. ",
+        "TELL ME MORE ABOUT MIKE": "It would be my pleasure. I'm Mike, a creative designer from the UK who's been working in the industry now for over 20 years. Both here in Barcelona, and in the UK. ",
+        "TELL ME MORE ABOUT YOURSELF.": "It would be my pleasure. I'm Mike, a creative designer from the UK who's been working in the industry now for over 20 years. Both here in Barcelona, and in the UK. ",
+
     "WHO ARE YOU?": "I'm Mike, a creative designer from the UK who's been working in the industry now for over 20 years. Both here in Barcelona, and in the UK. ",
     "WHO ARE YOU": "I'm Mike, a creative designer from the UK who's been working in the industry now for over 20 years. Both here in Barcelona, and in the UK. ",
     "WORK EXPERIENCE": "Which of my past or current work experience would you like to hear about first?\r\nChoose between: HP, TBOE, BEST PROJECT or CURRENT",
