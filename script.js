@@ -29,7 +29,7 @@ module.exports = new Script({
     },
       learn: {
         receive: (bot) => {
-            return bot.say('So you want to learn about Mike? Just say LETS GO to get started.')
+            return bot.sendPhoto(photo='https://telegram.org/img/t_logo.png')
                 .then(() => 'speak');
         }
     },
