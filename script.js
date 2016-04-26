@@ -60,8 +60,7 @@ module.exports = new Script({
 
                 if (!_.has(scriptRules, upperText)) {
                                 return bot.getProp('name')
-                .then((name) => bot.say(`Sorry ${name}, %[Button label here](http://anyurl.com)
-I'm not sure what you mean by that. have this gif instead... http://49.media.tumblr.com/0bda82e9165a664440a043b27f27b830/tumblr_n54eu4Ev1F1s9ab4to1_400.gif`,``))
+                .then((name) => bot.say(`Sorry ${name}, I'm not sure what you mean by that. have this gif instead... http://49.media.tumblr.com/0bda82e9165a664440a043b27f27b830/tumblr_n54eu4Ev1F1s9ab4to1_400.gif`,``))
                 .then(() => 'speak');
                 }
 
