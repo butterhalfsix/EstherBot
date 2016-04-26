@@ -29,7 +29,7 @@ module.exports = new Script({
     },
       learn: {
         receive: (bot) => {
-            return bot.say('So you want to learn about Mike? Just say LETS GO to get started.')
+            return bot.say('So you want to learn about Mike? Just say HI to get started.')
                 .then(() => 'speak');
         }
     },
@@ -60,7 +60,7 @@ module.exports = new Script({
 
                 if (!_.has(scriptRules, upperText)) {
                                 return bot.getProp('name')
-                .then((name) => bot.say(`Sorry ${name}, I'm not sure what you mean by that. Try one of my helpful keywords instead))
+                .then((name) => bot.say(`Sorry ${name}, I'm not sure what you mean by that. Try one of my helpful keywords instead`))
                 .then(() => 'speak');
                 }
 
