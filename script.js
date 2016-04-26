@@ -60,7 +60,7 @@ module.exports = new Script({
 
                 if (!_.has(scriptRules, upperText)) {
                                 return bot.getProp('name')
-                .then((name) => bot.say(`Sorry ${name}, I'm not sure what you mean by that. Try one of my helpful keywords instead`))
+                .then((name) => bot.say(`Sorry ${name}, I'm not sure what you mean by that. Try one of my helpful keywords instead` or `what is my name` or `structured` or `call me captain`'))
                 .then(() => 'speak');
                 }
 
