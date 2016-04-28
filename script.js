@@ -67,7 +67,7 @@ module.exports = new Script({
                     var message = messages[Math.floor(Math.random() * messages.length)]; 
                     
                     bot.say(message); })
-                .then(() => 'speak');
+                //.then(() => 'speak');
                 }
 
                 var response = scriptRules[upperText];
