@@ -59,10 +59,9 @@ module.exports = new Script({
                 }
 
                 if (!_.has(scriptRules, upperText)) {
-                    var fallbackMessages = [ 'Sorry, not sure what you just said.', 'Uh oh! Try again.', 'Hm... Sorry ${name} I\'m not that smart yet. Try again!' ]; 
-                    var message = messages[Math.floor(Math.random() * messages.length)];
-                    return.bot.say(message); 
-                    
+                    var fallbackMessages = ['Sorry, not sure what you just said.','Uh oh! Try again.','Hm... Sorry ${name} I\'m not that smart yet. Try again!']; 
+                    var message = message[Math.floor(Math.random() * message.length)];
+                    bot.say(message); 
                 }
 
                 var response = scriptRules[upperText];
