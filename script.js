@@ -79,7 +79,7 @@ module.exports = new Script({
                     line = line.trim();
                     p = p.then(function() {
                         console.log(line);
-                        return wait(50).then(function() {
+                        return wait(200).then(function() {
                             return bot.say(line);
                         });
                     });
