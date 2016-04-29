@@ -60,7 +60,7 @@ module.exports = new Script({
 
                 if (!_.has(scriptRules, upperText)) {
                     var fallbackMessages = ['Sorry, not sure what you just said.','Uh oh! Try again.','Hm... Sorry ${name} I\'m not that smart yet. Try again!']; 
-                    var message = messages[Math.floor(Math.random() * messages.length)];
+                    var message = fallBackMessages[Math.floor(Math.random() * fallBackMessages.length)];
                     return.bot.say(message); 
                     .then(() => 'speak');
                 }
