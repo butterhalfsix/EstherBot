@@ -60,9 +60,12 @@ module.exports = new Script({
 
                 if (!_.has(scriptRules, upperText)) {
                                 return bot.getProp('name')
-                .then((name) => bot.say(`Sorry ${name}, I'm not sure what you mean by that. Try using some of the keywords I've added to the text instead.`))
-                .then(() => 'speak');
-                }
+                .then((name) => 
+                var fallbackMessages = [ 'Sorry, not sure what you just said.', 'Uh oh! Try again.', 'Hm... Sorry ${name} I\'m not that smart yet. Try again!' ]; 
+                var message = messages[Math.floor(Math.random() * messages.length)];
+                return.bot.say(message); 
+                    
+                })
 
                 var response = scriptRules[upperText];
                 var lines = response.split('\n');
