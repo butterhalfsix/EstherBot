@@ -30,7 +30,8 @@ module.exports = new Script({
         receive: (bot, message) => {
             const name = message.text;
             return bot.setProp('name', name)
-                .then(() => bot.say(`Great! nice to meet you ${name}`))
+                .then(() => bot.say(`Great! Nice to meet you ${name}
+Is that OK? %[Yes](postback:yes) %[No](postback:no)`))
                 .then(() => 'learn');
         }
     },
